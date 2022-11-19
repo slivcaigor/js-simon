@@ -5,12 +5,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/master.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simon Says</title>
 </head>
 
 <body>
-
+  <main>
+    <!-- Container to center content of the page -->
+    <div class="container">
+      <!-- Timer to memorize numbers -->
+      <h1 class="timer"></h1>
+      <!-- The numbers to memorize -->
+      <div class="group"></div>
+      <!-- The inputs to insert memorized numbers -->
+      <form name="verify">
+        <div class="inputs"></div>
+      </form>
+      <!-- Button to start the game -->
+      <button id="start" class="lever button">
+        Start Game
+      </button>
+      <!-- Button to verify numbers -->
+      <button id="verify" class="lever button btn2">
+        Verify Numbers
+      </button>
+      <!-- Button to restart game -->
+      <button id="restart" class="lever button btn2">
+        Restart Game
+      </button>
+    </div>
+  </main>
 </body>
 
 </html>
